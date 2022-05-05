@@ -1,0 +1,39 @@
+.banner {
+  height: 590px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 190px;
+
+}
+
+.banner h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.banner p {
+  color: white;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+
+.banner .btn-treehouse {
+  background-color: #1EDE88;
+  font-size: 16px;
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  padding: 15px 25px;
+  border-radius: 25px;
+  border: #46d473;
+  opacity: 0.9;
+  transition: background-color 3sec, opacity 3sec ;
+}
+
+.banner .btn-treehouse:hover {
+  background-color: #46d473;
+  opacity: 1;
+}
